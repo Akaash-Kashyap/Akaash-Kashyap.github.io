@@ -1,0 +1,18 @@
+title: Akaash Kashyap
+description: Portfolio and Resume
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://yourusername.github.io"
+theme: minima
+
+# Navigation links
+nav:
+  - name: About
+    link: /about
+  - name: Experience
+    link: /experience
+  - name: Certifications
+    link: /certifications
+  - name: Projects
+    link: /projects
+  - name: Contact
+    link: /contact
