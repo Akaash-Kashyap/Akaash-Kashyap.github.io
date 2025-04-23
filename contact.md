@@ -13,7 +13,7 @@ I'm always interested in discussing new projects, opportunities, or just connect
   <div class="contact-info">
     <div class="contact-item">
       <i class="fas fa-envelope"></i>
-      <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p><a href="mailto:akaashkashyap@example.com">your.email@example.com</a></p>
     </div>
     
     <div class="contact-item">
@@ -24,14 +24,11 @@ I'm always interested in discussing new projects, opportunities, or just connect
     <div class="contact-social">
       <h3>Connect With Me</h3>
       <div class="social-links">
-        <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+        <a href="https://github.com/akaash-kashyap" target="_blank" title="GitHub">
           <i class="fab fa-github"></i>
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" title="LinkedIn">
+        <a href="https://linkedin.com/in/akaashkashyap" target="_blank" title="LinkedIn">
           <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://twitter.com/yourusername" target="_blank" title="Twitter">
-          <i class="fab fa-twitter"></i>
         </a>
       </div>
     </div>
@@ -39,7 +36,7 @@ I'm always interested in discussing new projects, opportunities, or just connect
   
   <div class="contact-form">
     <h3>Send Me a Message</h3>
-    <form action="https://formspree.io/f/yourformid" method="POST">
+    <form action="https://formspree.io/f/xwpokwzr" method="POST">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>

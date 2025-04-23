@@ -9,7 +9,7 @@ title: About Me
 
 ## Who I Am
 
-I'm Akaash Kashyap, a graduating senior at the University of Illinois Urbana-Champaign (UIUC). My academic focus and passion lie in computer architecture, systems programming, and cybersecurity.
+I'm Akaash Kashyap, a graduating senior at the University of Illinois Urbana-Champaign (UIUC). My academic focus and passion lie in network engineering, systems programming, and cybersecurity.
 
 ## Education
 
@@ -21,8 +21,8 @@ B.S. in Computer Engineering
 
 - **Computer Architecture**: Processor design, memory systems, hardware optimization
 - **Systems Programming**: Operating systems, low-level programming, embedded systems
-- **Security**: System hardening, vulnerability assessment, secure architecture design
-- **Programming Languages**: C/C++, Python, Assembly, Verilog/VHDL
+- **Security**: Splunk, Burp Suite, Wireshark, System hardening, vulnerability assessment, secure architecture design
+- **Programming Languages**: C/C++, Python, RISC V Assembly,x86 Assembly Verilog/VHDL
 
 ## Personal Interests
 
