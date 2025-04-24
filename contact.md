@@ -13,7 +13,7 @@ I'm always interested in discussing new projects, opportunities, or just connect
   <div class="contact-info">
     <div class="contact-item">
       <i class="fas fa-envelope"></i>
-      <p><a href="mailto:akaashkashyap@example.com">your.email@example.com</a></p>
+      <p><a href="mailto:akaashkashyap@example.com">akaashkashyap@example.com</a></p>
     </div>
     
     <div class="contact-item">

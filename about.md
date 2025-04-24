@@ -5,7 +5,7 @@ title: About Me
 
 # About Me
 
-<img src="assets/images/profile-photo.jpg" alt="Akaash Kashyap" style="max-width: 300px; border-radius: 10px; float: right; margin-left: 20px; margin-bottom: 10px;">
+<img src="assets/img/profile.jpg" alt="Akaash Kashyap" style="max-width: 300px; border-radius: 10px; float: right; margin-left: 20px; margin-bottom: 10px;">
 
 ## Who I Am
 
@@ -22,7 +22,7 @@ B.S. in Computer Engineering
 - **Computer Architecture**: Processor design, memory systems, hardware optimization
 - **Systems Programming**: Operating systems, low-level programming, embedded systems
 - **Security**: Splunk, Burp Suite, Wireshark, System hardening, vulnerability assessment, secure architecture design
-- **Programming Languages**: C/C++, Python, RISC V Assembly,x86 Assembly Verilog/VHDL
+- **Programming Languages**: C/C++, Python, RISC V Assembly, x86 Assembly Verilog/VHDL
 
 ## Personal Interests
 

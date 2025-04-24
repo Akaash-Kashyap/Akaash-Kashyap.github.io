@@ -8,52 +8,18 @@ title: Certifications
 Here's a collection of my professional certifications and technical achievements.
 
 <div class="certifications-grid">
-
-## Security
-
-<div class="cert-card">
-    <img src="assets/images/certs/comptia_sec.png" alt="CompTIA Security+" class="cert-logo">
-    <div class="cert-details">
-        <h3>CompTIA Security+</h3>
-        <p>Validation of baseline cybersecurity skills with focus on security principles, network security, and threat management.</p>
-        <p class="cert-meta">Issued: January 2024 | Expires: January 2027</p>
-        <p><a href="#" class="cert-verify">Verification ID: COMP12345</a></p>
+    <h2> Security </h2>
+    <div class="cert-card">
+        <div class="cert-logo-wrapper">
+            <img src="assets/img/google_prof.png" alt="Google Cybersecurity Certificate" class="cert-logo">
+        </div>
+        <div class="cert-details">
+            <h3>Google Cybersecurity Certificate</h3>
+            <p>Validation of baseline cybersecurity skills with focus on security principles, network security, and threat management.</p>
+            <p class="cert-meta">Issued: January 2024 | Expires: January 2027</p>
+            <p><a href="#" class="cert-verify">Verification ID: COMP12345</a></p>
+        </div>
     </div>
-</div>
-
-## Systems & Cloud
-<div class="cert-card">
-    <img src="assets/images/certs/aws_cloud.png" alt="AWS Certified Cloud Practitioner" class="cert-logo">
-    <div class="cert-details">
-        <h3>AWS Certified Cloud Practitioner</h3>
-        <p>Foundational understanding of AWS Cloud services, architecture, security, and compliance.</p>
-        <p class="cert-meta">Issued: November 2023 | Expires: November 2026</p>
-        <p><a href="#" class="cert-verify">Verification ID: AWS12345</a></p>
-    </div>
-</div>
-
-## Programming & Development
-<div class="cert-card">
-    <img src="assets/images/certs/nvidia_cuda.png" alt="NVIDIA CUDA Programming" class="cert-logo">
-    <div class="cert-details">
-        <h3>NVIDIA CUDA Programming Certification</h3>
-        <p>Proficiency in parallel computing and GPU architecture programming using CUDA.</p>
-        <p class="cert-meta">Issued: March 2024</p>
-        <p><a href="#" class="cert-verify">Verification ID: NVID12345</a></p>
-    </div>
-</div>
-
-## Course Completions
-<div class="cert-card">
-    <img src="assets/images/certs/coursera.png" alt="Coursera" class="cert-logo">
-    <div class="cert-details">
-        <h3>Computer Architecture by Princeton University</h3>
-        <p>Advanced study of processor design, pipelining, memory hierarchies, and multiprocessor systems.</p>
-        <p class="cert-meta">Completed: December 2023</p>
-        <p><a href="#" class="cert-verify">View Certificate</a></p>
-    </div>
-</div>
-
 </div>
 
 <style>
@@ -65,6 +31,7 @@ Here's a collection of my professional certifications and technical achievements
 
 .cert-card {
     display: flex;
+    align-items: center;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 1.5rem;
@@ -73,9 +40,9 @@ Here's a collection of my professional certifications and technical achievements
 }
 
 .cert-logo {
-    max-width: 100px;
-    height: auto;
-    margin-right: 1.5rem;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .cert-details {
@@ -97,6 +64,16 @@ Here's a collection of my professional certifications and technical achievements
     text-decoration: none;
     color: #0066cc;
     font-weight: 500;
+}
+
+.cert-logo-wrapper {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    flex-shrink: 0;
 }
 
 @media (max-width: 768px) {
