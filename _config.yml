@@ -2,12 +2,9 @@ title: Akaash Kashyap
 description: Portfolio and Resume
 baseurl: "" # Leave empty for GitHub Pages
 url: "https://akaash-kashyap.github.io"
-theme: minima
 
 # Navigation links
 nav:
-  - name: Home
-    link: /
   - name: About
     link: /about
   - name: Experience
