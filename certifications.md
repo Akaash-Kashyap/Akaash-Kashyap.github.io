@@ -16,8 +16,8 @@ Here's a collection of my professional certifications and technical achievements
         <div class="cert-details">
             <h3>Google Cybersecurity Certificate</h3>
             <p>Validation of baseline cybersecurity skills with focus on security principles, network security, and threat management.</p>
-            <p class="cert-meta">Issued: January 2024 | Expires: January 2027</p>
-            <p><a href="#" class="cert-verify">Verification ID: COMP12345</a></p>
+            <p class="cert-meta">Issued: August 2024</p>
+            <p><a href="https://coursera.org/verify/professional-cert/ERLGFYMF6L2A" class="cert-verify">Verify Here</a></p>
         </div>
     </div>
 </div>

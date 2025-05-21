@@ -9,21 +9,47 @@ Here are some of my key technical projects that demonstrate my skills in compute
 
 <div class="projects-container">
 
+
   <div class="project-card">
     <div class="project-header">
-      <h2>RISC-V Processor Implementation</h2>
-      <div class="project-links">
-        <a href="https://github.com/yourusername/riscv-processor" target="_blank">GitHub</a>
-      </div>
+      <h2>GPIO Device Driver - Raspberry Pi</h2>
+      <!-- <div class="project-links">
+        <a href="https://github.com/yourusername/secure-iot-gateway" target="_blank">GitHub</a>
+        <a href="https://yourprojectdemo.com" target="_blank">Demo</a>
+      </div> -->
     </div>
     <div class="project-content">
-      <img src="assets/images/projects/riscv-processor.png" alt="RISC-V Processor Design" class="project-image">
+      <img src="assets/img/projects/raspi_driver.jpg" alt="IoT Security Gateway" class="project-image">
       <div class="project-description">
-        <p>Implemented a 5-stage pipelined RISC-V processor in SystemVerilog, supporting the RV32I instruction set with hazard detection and forwarding units.</p>
-        <p>The design includes a branch predictor, separate instruction and data caches, and passes all test benchmarks with correct execution.</p>
+        <p>Developed a Linux kernel-mode GPIO driver in C that exposes a procfs interface for GPIO control.</p>
+        <p>Directly manipulated the Raspberry Pi's GPIO registers via memory-mapped I/O.</p>
+        <p>Employed Debug logging via printk and dmesg to ensure reliable operation and facilitate troubleshooting.</p>
+        <div class="project-tech">
+          <span>C</span>
+          <span>Embedded Linux</span>
+          <span>Drivers</span>
+          <span>dmesg</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-header">
+      <h2>RISC-V Out Of Order Processor Implementation</h2>
+      <!-- <div class="project-links">
+        <a href="https://github.com/yourusername/riscv-processor" target="_blank">GitHub</a>
+      </div> -->
+    </div>
+    <div class="project-content">
+      <img src="assets\img\projects\cpu.jpg" alt="RISC-V Processor Design" class="project-image">
+      <div class="project-description">
+        <p>Implemented a 4-stage Out Of Order RISC-V Core in SystemVerilog, supporting the RV32IM instruction set.</p>
+        <p>The design includes a GShare branch predictor, Early Branch Recovery, line-buffered instruction and data caches, and passes all test benchmarks with correct execution.</p>
+        <p>Reached 450 mHz and achieved top 20% in design competition hosted by Optiver</p>
         <div class="project-tech">
           <span>SystemVerilog</span>
-          <span>FPGA</span>
+          <span>Synopsys</span>
           <span>Computer Architecture</span>
           <span>Digital Design</span>
         </div>
@@ -33,45 +59,21 @@ Here are some of my key technical projects that demonstrate my skills in compute
 
   <div class="project-card">
     <div class="project-header">
-      <h2>Kernel Memory Allocator</h2>
-      <div class="project-links">
+      <h2>TCP over UDP Implementation</h2>
+      <!-- <div class="project-links">
         <a href="https://github.com/yourusername/kernel-memory" target="_blank">GitHub</a>
-      </div>
+      </div> -->
     </div>
     <div class="project-content">
-      <img src="assets/images/projects/memory-allocator.png" alt="Memory Allocator" class="project-image">
+      <img src="assets/img/projects/TCP.jpg" alt="Memory Allocator" class="project-image">
       <div class="project-description">
-        <p>Designed and implemented a custom kernel memory allocator with buddy system and slab allocation approaches for both small and large memory blocks.</p>
-        <p>Achieved 30% better memory utilization and 15% faster allocation/deallocation compared to the baseline implementation while maintaining thread safety.</p>
+        <p>Developed a reliable transport protocol over UDP, replicating core TCP features such as packet sequencing, acknowledgments, retransmissions, and congestion control.</p>
+        <p>Handled connection setup and teardown, timeout management, and sliding window-based flow control to ensure reliable end-to-end communication.</p>
         <div class="project-tech">
-          <span>C</span>
-          <span>Linux Kernel</span>
-          <span>Memory Management</span>
-          <span>Systems Programming</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-header">
-      <h2>Secure IoT Gateway</h2>
-      <div class="project-links">
-        <a href="https://github.com/yourusername/secure-iot-gateway" target="_blank">GitHub</a>
-        <a href="https://yourprojectdemo.com" target="_blank">Demo</a>
-      </div>
-    </div>
-    <div class="project-content">
-      <img src="assets/images/projects/iot-gateway.png" alt="IoT Security Gateway" class="project-image">
-      <div class="project-description">
-        <p>Built a security-focused IoT gateway running on Raspberry Pi that provides encryption, authentication, and intrusion detection for connected devices.</p>
-        <p>Implemented TLS for all communications, certificate-based device authentication, and anomaly detection to identify potentially compromised devices.</p>
-        <div class="project-tech">
-          <span>Python</span>
-          <span>Embedded Linux</span>
-          <span>MQTT</span>
-          <span>Cryptography</span>
-          <span>Network Security</span>
+          <span>C/C++</span>
+          <span>Docker</span>
+          <span>Wireshark</span>
+          <span>Socket Programming</span>
         </div>
       </div>
     </div>
@@ -80,12 +82,12 @@ Here are some of my key technical projects that demonstrate my skills in compute
   <div class="project-card">
     <div class="project-header">
       <h2>391 Operating System</h2>
-      <div class="project-links">
-        <!-- <a href="https://github.com/yourusername/gpu-crypto" target="_blank">GitHub</a> -->
-      </div>
+      <!-- <div class="project-links">
+        <a href="https://github.com/yourusername/gpu-crypto" target="_blank">GitHub</a>
+      </div> -->
     </div>
     <div class="project-content">
-      <img src="assets/images/projects/gpu-crypto.png" alt="391os" class="project-image">
+      <img src="assets/img/projects/391os.png" alt="391os" class="project-image">
       <div class="project-description">
         <p>Collaborated within a team to architect and develop a ground-up operating system.</p>
         <p>Leveraged skills in C programming, x86 assembly, and utilized a QEMU emulator for development</p>
@@ -103,17 +105,16 @@ Here are some of my key technical projects that demonstrate my skills in compute
   <div class="project-card">
     <div class="project-header">
       <h2>Mailing List Generator</h2>
-      <div class="project-links">
-        <!-- <a href="https://github.com/yourusername/gpu-crypto" target="_blank">GitHub</a> -->
-      </div>
+      <!-- <div class="project-links">
+        <a href="https://github.com/yourusername/gpu-crypto" target="_blank">GitHub</a>
+      </div> -->
     </div>
     <div class="project-content">
-      <img src="assets/images/projects/gpu-crypto.png" alt="Mailing List Generator" class="project-image">
+      <img src="assets/img/projects/mail.png" alt="Mailing List Generator" class="project-image" style="height: 20%; width:20%; justify-content:center; align-content:center;">
       <div class="project-description">
-        <p>Went back to CloudBYZ to help optimize the tedious task of creating mailing lists</p>
-        <p>A set of two Google Apps Scripts that parses through either a Google Calendar or a Gmail inbox and creates a unique list of emails and names for use in a mailing list</p>
-        <p>Iterates through multiple arrays to collect email addresses and saves them to Google Sheets</p>
-        <p>Designed for and is used by CloudBYZ’s business and marketing teams</p>
+        <p>Re-engaged with CloudBYZ to streamline and automate mailing list generation.
+        Developed a pair of Google Apps Scripts that extract and deduplicate contact information from Google Calendar events and Gmail threads. The scripts generate organized mailing lists by parsing attendee and sender data, then writing results to Google Sheets.
+        Optimized for reliability and ease-of-use, the solution is actively used by CloudBYZ’s business and marketing teams to reduce manual overhead and improve outreach efficiency.</p>
         <div class="project-tech">
           <span>C (Programming Language)</span>
           <span>x86 Assembly</span>
