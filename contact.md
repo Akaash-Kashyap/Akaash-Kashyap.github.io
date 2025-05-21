@@ -36,7 +36,7 @@ I'm always interested in discussing new projects, opportunities, or just connect
   
   <div class="contact-form">
     <h3>Send Me a Message</h3>
-    <form action="https://formsubmit.co/7eb364567e9e18d7d25e0dc61e39b44f" method="POST">
+    <form action="https://formsubmit.co/akaashkashyap@gmail.com" method="POST">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
