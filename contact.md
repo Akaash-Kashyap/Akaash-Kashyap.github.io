@@ -60,13 +60,14 @@ I'm always interested in discussing new projects, opportunities, or just connect
       <button type="submit">Send Message</button>
     </form>
 
-    <form action="https://formsubmit.co/akaashkashyap@gmail.com" method="POST">
+    <!-- <form action="https://formsubmit.co/judosipa@mailgolem.com" method="POST">
         <input type="text" name="name" required>
         <input type="email" name="email" required>
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="_honey" style="display:none">
+        <textarea name="message" placeholder="Details of your problem"></textarea>
         <button type="submit">Send</button>
-    </form> 
+    </form>  -->
   </div>
 </div>
 
