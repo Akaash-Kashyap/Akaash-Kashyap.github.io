@@ -3,18 +3,44 @@ layout: default
 title: Home
 ---
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/assets/img/profile.jpg" alt="Profile picture of Akaash Kashyap" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+<section class="hero">
+  <div class="hero-avatar">
+    <img src="/assets/img/profile.jpg" alt="Akaash Kashyap">
+  </div>
+  <div class="hero-content">
+    <span class="hero-greeting">// hello, world</span>
+    <h1 class="hero-name">Akaash Kashyap</h1>
+    <p class="hero-tagline">
+      Computer Engineer &mdash; <strong>Systems · Security · Automation</strong>
+    </p>
+    <p class="hero-bio">
+      B.S. Computer Engineering, UIUC &rsquo;25. I build things at the hardware-software boundary — from OS kernels and CPU designs to automation scripts that save teams thousands of hours. Currently: Course Assistant for ECE 220.
+    </p>
+    <div class="hero-ctas">
+      <a href="/projects" class="btn btn-primary">View Projects</a>
+      <a href="/experience" class="btn btn-outline">Experience</a>
+      <a href="/contact" class="btn btn-outline">Contact</a>
+    </div>
+  </div>
+</section>
+
+<hr class="home-divider">
+
+<span class="section-label">Areas of focus</span>
+<div class="highlights-grid">
+  <div class="highlight-card">
+    <span class="hl-label">Systems</span>
+    <h3>Low-Level Engineering</h3>
+    <p>OS kernels, device drivers, processor design in SystemVerilog, and embedded Linux.</p>
+  </div>
+  <div class="highlight-card">
+    <span class="hl-label">Security</span>
+    <h3>Cybersecurity</h3>
+    <p>Network security, digital forensics, incident response, and secure systems design.</p>
+  </div>
+  <div class="highlight-card">
+    <span class="hl-label">Automation</span>
+    <h3>Workflow Automation</h3>
+    <p>Google Apps Scripts and tooling that eliminates repetitive manual work at scale.</p>
+  </div>
 </div>
-
-# Welcome
-
-Hi, I’m Akaash Kashyap—a Computer Engineering student at the University of Illinois Urbana-Champaign, passionate about building efficient systems, automating workflows, and solving real-world problems with technology.
-
-With hands-on experience in software development, automation, and cybersecurity, I’ve designed solutions that save time and improve organization for teams. My projects range from developing custom Google Apps Scripts for business automation, to building a ground-up operating system, to creating AI-powered chess engines. I enjoy collaborating with others, mentoring, and constantly learning new tools and technologies.
-
-Currently, I’m a Course Assistant for ECE 220 at UIUC, where I help students master systems programming concepts. I’ve also worked as an Automation Engineer at CloudBYZ, and held leadership roles in robotics organizations.
-
-On this site, you’ll find highlights of my projects, work experience, and interests in computer engineering, automation, and cybersecurity. Feel free to explore—and don’t hesitate to reach out if you’d like to connect!
-
----

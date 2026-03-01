@@ -1,11 +1,14 @@
-<header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+<header class="site-header">
+  <div class="nav-inner">
+    <a class="nav-logo" href="{{ '/' | relative_url }}">
+      {{ site.title | split: ' ' | first }}<span>.</span>{{ site.title | split: ' ' | last }}
+    </a>
     <nav>
-      <ul>
+      <ul class="nav-links">
         {% for item in site.nav %}
           <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
         {% endfor %}
       </ul>
     </nav>
-  </header>
-  
+  </div>
+</header>

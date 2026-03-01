@@ -2,14 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Certifications | Akaash Kashyap</title>
+  <meta name="description" content="Portfolio and Resume">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1><a href="/">Akaash Kashyap</a></h1>
+  <header class="site-header">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">
+      Akaash<span>.</span>Kashyap
+    </a>
     <nav>
-      <ul>
+      <ul class="nav-links">
         
           <li><a href="/about">About</a></li>
         
@@ -23,99 +38,53 @@
         
       </ul>
     </nav>
-  </header>
-  
+  </div>
+</header>
+
   <main>
-    <h1 id="professional-certifications">Professional Certifications</h1>
-
-<p>Here’s a collection of my professional certifications and technical achievements.</p>
-
-<div class="certifications-grid">
-    <h2> Security </h2>
-    <div class="cert-card">
-        <div class="cert-logo-wrapper">
-            <img src="assets/img/google_prof.png" alt="Google Cybersecurity Certificate" class="cert-logo" />
-        </div>
-        <div class="cert-details">
-            <h3>Google Cybersecurity Certificate</h3>
-            <p>Validation of baseline cybersecurity skills with focus on security principles, network security, and threat management.</p>
-            <p class="cert-meta">Issued: January 2024 | Expires: January 2027</p>
-            <p><a href="#" class="cert-verify">Verification ID: COMP12345</a></p>
-        </div>
-    </div>
+    <div class="page-header">
+  <h1>Certifications</h1>
+  <p class="subtitle">Professional credentials and technical achievements</p>
 </div>
 
-<style>
-.certifications-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
+<p><span class="section-label">Security</span></p>
+<div class="certs-list">
 
-.cert-card {
-    display: flex;
-    align-items: center;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 1.5rem;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
+  <div class="cert-card">
+    <div class="cert-logo-wrap">
+      <img src="/assets/img/google_prof.png" alt="Google Cybersecurity Certificate" />
+    </div>
+    <div class="cert-info">
+      <h3>Google Cybersecurity Certificate</h3>
+      <p>Validation of baseline cybersecurity skills with focus on security principles, network security, and threat management.</p>
+      <p class="cert-date">Issued: August 2024</p>
+      <p style="margin-top: 0.5rem;">
+        <a href="https://coursera.org/verify/professional-cert/ERLGFYMF6L2A" target="_blank">
+          Verify credential &rarr;
+        </a>
+      </p>
+    </div>
+  </div>
 
-.cert-logo {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-}
-
-.cert-details {
-    flex: 1;
-}
-
-.cert-details h3 {
-    margin-top: 0;
-    color: #333;
-}
-
-.cert-meta {
-    font-style: italic;
-    color: #666;
-    font-size: 0.9rem;
-}
-
-.cert-verify {
-    text-decoration: none;
-    color: #0066cc;
-    font-weight: 500;
-}
-
-.cert-logo-wrapper {
-    width: 180px;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1.5rem;
-    flex-shrink: 0;
-}
-
-@media (max-width: 768px) {
-    .cert-card {
-        flex-direction: column;
-    }
-    
-    .cert-logo {
-        margin-bottom: 1rem;
-        margin-right: 0;
-    }
-}
-</style>
-
+</div>
 
   </main>
-  <footer>
-    <p>&copy; 2025 Akaash Kashyap</p>
-  </footer>
+  <footer class="site-footer">
+  <p>&copy; 2026 Akaash Kashyap &mdash; built with Jekyll</p>
+</footer>
 
+
+  <script>
+    // Mark active nav link
+    (function() {
+      var path = window.location.pathname.replace(/\/$/, '') || '/';
+      document.querySelectorAll('.nav-links a').forEach(function(a) {
+        var href = a.getAttribute('href').replace(/\/$/, '') || '/';
+        if (path === href || (href !== '/' && path.startsWith(href))) {
+          a.classList.add('active');
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

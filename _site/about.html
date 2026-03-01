@@ -2,14 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me | Akaash Kashyap</title>
+  <meta name="description" content="Portfolio and Resume">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1><a href="/">Akaash Kashyap</a></h1>
+  <header class="site-header">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">
+      Akaash<span>.</span>Kashyap
+    </a>
     <nav>
-      <ul>
+      <ul class="nav-links">
         
           <li><a href="/about">About</a></li>
         
@@ -23,44 +38,97 @@
         
       </ul>
     </nav>
-  </header>
-  
+  </div>
+</header>
+
   <main>
-    <h1 id="about-me">About Me</h1>
+    <div class="page-header">
+  <h1>About Me</h1>
+  <p class="subtitle">Background, education, and technical expertise</p>
+</div>
 
-<p><img src="assets/img/profile.jpg" alt="Akaash Kashyap" style="max-width: 300px; border-radius: 10px; float: right; margin-left: 20px; margin-bottom: 10px;" /></p>
+<div class="about-layout">
+  <aside class="about-sidebar">
+    <img src="/assets/img/profile.jpg" alt="Akaash Kashyap" />
+    <div class="about-sidebar-links">
+      <a href="https://www.linkedin.com/in/akaashkashyap" target="_blank" class="btn btn-outline">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/akaash-kashyap" target="_blank" class="btn btn-outline">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="/contact" class="btn btn-primary">
+        <i class="fas fa-envelope"></i> Contact
+      </a>
+    </div>
+  </aside>
 
-<h2 id="who-i-am">Who I Am</h2>
+  <div class="about-main">
 
-<p>I’m Akaash Kashyap, a graduating senior at the University of Illinois Urbana-Champaign (UIUC). My academic focus and passion lie in network engineering, systems programming, and cybersecurity.</p>
+    <h2>Who I Am</h2>
+    <p>
+      I'm Akaash Kashyap, a recent graduate from the University of Illinois Urbana-Champaign with a B.S. in Computer Engineering. My work spans the full systems stack — processor design, operating systems, network programming, embedded drivers, and security.
+    </p>
+    <p>
+      I care about writing efficient, correct code and building tools that solve real problems. Whether it's a ground-up OS, an out-of-order CPU, or a script that saves a team thousands of hours of manual work, I'm drawn to projects where the engineering actually matters.
+    </p>
 
-<h2 id="education">Education</h2>
+    <h2>Education</h2>
+    <div class="edu-card">
+      <div class="school">University of Illinois Urbana-Champaign</div>
+      <div class="degree">B.S. Computer Engineering</div>
+      <div class="date">May 2025</div>
+    </div>
 
-<p><strong>University of Illinois Urbana-Champaign</strong><br />
-B.S. in Computer Engineering<br />
-<em>Expected Graduation: May 2025</em></p>
+    <h2>Technical Skills</h2>
+    <div class="tech-rows">
+      <div class="tech-row">
+        <span class="tl">Architecture</span>
+        <span class="tv">Processor design, memory systems, hardware optimization</span>
+      </div>
+      <div class="tech-row">
+        <span class="tl">Systems Programming</span>
+        <span class="tv">Operating systems, embedded systems, device drivers, low-level C</span>
+      </div>
+      <div class="tech-row">
+        <span class="tl">Security</span>
+        <span class="tv">Splunk, Burp Suite, Wireshark, system hardening, forensics</span>
+      </div>
+      <div class="tech-row">
+        <span class="tl">Languages</span>
+        <span class="tv">C/C++, Python, RISC-V Assembly, x86 Assembly, Verilog/VHDL</span>
+      </div>
+      <div class="tech-row">
+        <span class="tl">Tools</span>
+        <span class="tv">Git, Docker, Make, GDB, Valgrind, Linux/Unix</span>
+      </div>
+    </div>
 
-<h2 id="technical-expertise">Technical Expertise</h2>
+    <h2>Outside Work</h2>
+    <p>
+      When I'm not deep in a codebase, I enjoy exploring nature, trying out new recipes, and volunteering at STEM outreach programs. I'm always looking to connect with engineers and students in the field.
+    </p>
 
-<ul>
-  <li><strong>Computer Architecture</strong>: Processor design, memory systems, hardware optimization</li>
-  <li><strong>Systems Programming</strong>: Operating systems, low-level programming, embedded systems</li>
-  <li><strong>Security</strong>: Splunk, Burp Suite, Wireshark, System hardening, vulnerability assessment, secure architecture design</li>
-  <li><strong>Programming Languages</strong>: C/C++, Python, RISC V Assembly, x86 Assembly Verilog/VHDL</li>
-</ul>
-
-<h2 id="personal-interests">Personal Interests</h2>
-
-<p>When I’m not working on technical projects, I enjoy [your hobbies/interests - e.g., hiking, playing chess, reading about technology history, etc.]. I’m always looking to connect with other professionals and students in my field.</p>
-
-<h2 id="get-in-touch">Get in Touch</h2>
-
-<p>Feel free to reach out through my <a href="/contact">contact page</a> or connect with me on <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>.</p>
+  </div>
+</div>
 
   </main>
-  <footer>
-    <p>&copy; 2025 Akaash Kashyap</p>
-  </footer>
+  <footer class="site-footer">
+  <p>&copy; 2026 Akaash Kashyap &mdash; built with Jekyll</p>
+</footer>
 
+
+  <script>
+    // Mark active nav link
+    (function() {
+      var path = window.location.pathname.replace(/\/$/, '') || '/';
+      document.querySelectorAll('.nav-links a').forEach(function(a) {
+        var href = a.getAttribute('href').replace(/\/$/, '') || '/';
+        if (path === href || (href !== '/' && path.startsWith(href))) {
+          a.classList.add('active');
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

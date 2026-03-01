@@ -2,14 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Experience | Akaash Kashyap</title>
+  <meta name="description" content="Portfolio and Resume">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1><a href="/">Akaash Kashyap</a></h1>
+  <header class="site-header">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">
+      Akaash<span>.</span>Kashyap
+    </a>
     <nav>
-      <ul>
+      <ul class="nav-links">
         
           <li><a href="/about">About</a></li>
         
@@ -23,33 +38,107 @@
         
       </ul>
     </nav>
-  </header>
-  
+  </div>
+</header>
+
   <main>
-    <h1 id="work-experience">Work Experience</h1>
+    <div class="page-header">
+  <h1>Experience</h1>
+  <p class="subtitle">Work history and professional activities</p>
+</div>
 
-<h2 id="automation-engineer">Automation Engineer</h2>
-<p><strong>July 2022 – Present</strong></p>
+<div class="timeline">
 
-<h2 id="computer-systems--programming-ece-220-course-assistant">Computer Systems &amp; Programming (ECE 220) Course Assistant</h2>
-<p><strong>January 2024 - Present</strong><br />
-Assisted 50+ students weekly with basic assembly language, C, C++ programming and systems level programming concepts.
-Co-hosted a lab section to introduce new concepts to 30+ students.
-Ensured integrity during exams as a proctor and graded 30+ student exams.</p>
+  <div class="timeline-group">
+    <p class="timeline-group-label">Work</p>
 
-<h1 id="other-experience">Other Experience</h1>
+    <div class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-role">Automation Engineer</span>
+        <span class="timeline-org">CloudBYZ</span>
+        <span class="timeline-date">Jul 2022 – Present &nbsp;·&nbsp; Part-time</span>
+      </div>
+      <div class="timeline-body">
+        <div class="sub-project">
+          <h4>Automated Invoice Archiver</h4>
+          <ul>
+            <li>Automated extraction of invoices from Gmail and organized filing in Google Drive.</li>
+            <li>Eliminated a recurring 10-hour/month manual process for the team.</li>
+          </ul>
+        </div>
+        <div class="sub-project">
+          <h4>Project Folder Generator</h4>
+          <ul>
+            <li>Built a script to auto-generate structured project folders in Google Drive.</li>
+            <li>Reduced setup errors and improved cross-team organization.</li>
+          </ul>
+        </div>
+        <div class="sub-project">
+          <h4>Mailing List Generator</h4>
+          <ul>
+            <li>Developed two Google Apps Scripts to scrape attendee and sender data from Google Calendar and Gmail.</li>
+            <li>Deduplicated and wrote results to Google Sheets for business and marketing use.</li>
+            <li>Saved thousands of hours of manual contact compilation across teams.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-<h2 id="tracer-fire-forensic-incident-response-exercise">Tracer FIRE (Forensic Incident Response Exercise)</h2>
-<p><strong>April 2025</strong><br />
-Participated in a simulated incident response exercise, enhancing skills in digital forensics and incident management.
-Collaborated with a team to analyze and respond to a simulated cyber incident, applying knowledge of cybersecurity principles.Gained hands-on experience with forensics tools such as Kibana, Malcom, Velociraptor, Azure Data Explorer (ADX), and Autopsy.Gained hands-on experience with forensics tools such as Kibana, Malcom, Velociraptor, Azure Data Explorer (ADX), and Autopsy</p>
+    <div class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-role">Course Assistant — ECE 220</span>
+        <span class="timeline-org">UIUC</span>
+        <span class="timeline-date">Jan 2024 – May 2025</span>
+      </div>
+      <div class="timeline-body">
+        <ul>
+          <li>Assisted 50+ students weekly with assembly language, C, C++, and systems programming concepts.</li>
+          <li>Co-hosted a lab section to introduce new material to 30+ students.</li>
+          <li>Proctored exams and graded 30+ student submissions per cycle.</li>
+        </ul>
+      </div>
+    </div>
 
-<hr />
+  </div>
+
+  <div class="timeline-group">
+    <p class="timeline-group-label">Other</p>
+
+    <div class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-role">Tracer FIRE — Forensic Incident Response Exercise</span>
+        <span class="timeline-date">Apr 2025</span>
+      </div>
+      <div class="timeline-body">
+        <ul>
+          <li>Participated in a multi-team simulated cyber incident response exercise.</li>
+          <li>Applied digital forensics skills using Kibana, Malcom, Velociraptor, Azure Data Explorer, and Autopsy.</li>
+          <li>Collaborated to analyze evidence, reconstruct the attack timeline, and produce an incident report.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
   </main>
-  <footer>
-    <p>&copy; 2025 Akaash Kashyap</p>
-  </footer>
+  <footer class="site-footer">
+  <p>&copy; 2026 Akaash Kashyap &mdash; built with Jekyll</p>
+</footer>
 
+
+  <script>
+    // Mark active nav link
+    (function() {
+      var path = window.location.pathname.replace(/\/$/, '') || '/';
+      document.querySelectorAll('.nav-links a').forEach(function(a) {
+        var href = a.getAttribute('href').replace(/\/$/, '') || '/';
+        if (path === href || (href !== '/' && path.startsWith(href))) {
+          a.classList.add('active');
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
