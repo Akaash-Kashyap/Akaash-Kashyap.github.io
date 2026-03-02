@@ -45,23 +45,23 @@ title: About Me
     <div class="tech-rows">
       <div class="tech-row">
         <span class="tl">Architecture</span>
-        <span class="tv">Processor design, memory systems, hardware optimization</span>
+        <span class="tv">Processor design, out-of-order execution, memory systems, hardware optimization</span>
       </div>
       <div class="tech-row">
         <span class="tl">Systems Programming</span>
-        <span class="tv">Operating systems, embedded systems, device drivers, low-level C</span>
+        <span class="tv">Operating systems, embedded Linux, device drivers, kernel modules, low-level C</span>
       </div>
       <div class="tech-row">
         <span class="tl">Security</span>
-        <span class="tv">Splunk, Burp Suite, Wireshark, system hardening, forensics</span>
+        <span class="tv">Kibana, Velociraptor, Wireshark, Burp Suite, digital forensics, incident response, secure coding</span>
       </div>
       <div class="tech-row">
         <span class="tl">Languages</span>
-        <span class="tv">C/C++, Python, RISC-V Assembly, x86 Assembly, Verilog/VHDL</span>
+        <span class="tv">C/C++, Rust, Python, Bash, SystemVerilog, RISC-V Assembly, x86 Assembly, JavaScript</span>
       </div>
       <div class="tech-row">
         <span class="tl">Tools</span>
-        <span class="tv">Git, Docker, Make, GDB, Valgrind, Linux/Unix</span>
+        <span class="tv">Git, CMake/Make, JTAG, Docker, GDB, Valgrind, Linux/Unix, Google Apps Script</span>
       </div>
     </div>
 

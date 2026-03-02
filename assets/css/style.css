@@ -174,10 +174,11 @@ main {
 /* ── Section label ──────────────────────────────────────────── */
 .section-label {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--text-3);
+  font-size: 0.8rem;
+  color: var(--accent);
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.15em;
+  margin-top: 2.5rem;
   margin-bottom: 1.25rem;
   display: block;
 }
@@ -408,6 +409,15 @@ main {
   width: 2px;
   background: var(--border);
 }
+.timeline::after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid var(--border);
+}
 
 .timeline-group { margin-bottom: 2rem; }
 
@@ -420,7 +430,7 @@ main {
   margin-bottom: 1.5rem;
   padding-left: 0;
   position: relative;
-  left: -2rem;
+  left: -1rem;
 }
 
 .timeline-item {
@@ -430,7 +440,7 @@ main {
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: -2.45rem;
+  left: calc(-2rem - 4px);
   top: 0.48rem;
   width: 10px;
   height: 10px;
@@ -451,6 +461,15 @@ main {
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--text);
+}
+.timeline-promotion {
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  color: var(--accent);
+  opacity: 0.8;
+  margin-left: 0.5rem;
+  vertical-align: middle;
 }
 .timeline-org {
   font-family: var(--font-mono);
@@ -595,9 +614,14 @@ main {
   justify-content: center;
 }
 .cert-logo-wrap img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+}
+.cert-logo-icon {
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--accent);
 }
 
 .cert-info h3 {
@@ -663,6 +687,23 @@ main {
   border-color: var(--accent);
   color: var(--accent);
   background: rgba(88, 166, 255, 0.07);
+}
+
+.form-feedback {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  margin-bottom: 1.1rem;
+}
+.form-feedback--success {
+  background: rgba(63, 185, 80, 0.12);
+  border: 1px solid rgba(63, 185, 80, 0.35);
+  color: #3fb950;
+}
+.form-feedback--error {
+  background: rgba(248, 81, 73, 0.12);
+  border: 1px solid rgba(248, 81, 73, 0.35);
+  color: #f85149;
 }
 
 .form-group { margin-bottom: 1.1rem; }

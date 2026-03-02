@@ -14,7 +14,7 @@ title: Home
       Computer Engineer &mdash; <strong>Systems · Security · Automation</strong>
     </p>
     <p class="hero-bio">
-      B.S. Computer Engineering, UIUC &rsquo;25. I build things at the hardware-software boundary — from OS kernels and CPU designs to automation scripts that save teams thousands of hours. Currently: Course Assistant for ECE 220.
+      B.S. Computer Engineering, UIUC &rsquo;25. I build things at the hardware-software boundary &mdash; from OS kernels and CPU designs to automation scripts that eliminate thousands of hours of manual work. Currently a Software Engineer at Qualcomm.
     </p>
     <div class="hero-ctas">
       <a href="/projects" class="btn btn-primary">View Projects</a>
